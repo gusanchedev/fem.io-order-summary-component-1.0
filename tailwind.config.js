@@ -15,7 +15,13 @@ module.exports = {
       },
       boxShadow: {
         "card-button": "0 10px 8px 1px #dfdaff"
-      }
+      },
+      backgroundImage: theme => ({
+        'hero-pattern': "url('/pattern-background-desktop.svg')"
+       }),
+       backgroundPosition: {
+         "top-100":"top -10rem left 0"
+       }
     },
   },
   variants: {
